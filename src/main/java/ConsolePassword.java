@@ -8,7 +8,7 @@ import java.io.Console;
  * 通常はこのようにパスワードを直接出力せず、適切な方法で保護してください。
  *
  */
-public class Main {
+public class ConsolePassword {
 
   public static void main(String[] args) {
 
@@ -22,9 +22,9 @@ public class Main {
     }
 
     // ユーザーにパスワードの入力を求め、その入力を char の配列として取得します。
-    char[] passwordArray = console.readPassword("Enter your password: ");
+    char[] passwordArray = console.readPassword("Enter password: ");
 
     // 入力されたパスワードをコンソールに出力します。セキュリティを考慮すれば、通常はこのようにパスワードを直接表示すべきではありません。
-    System.out.println("Password entered was: " + new String(passwordArray));
+    System.out.println("Your password is: " + new String(passwordArray));
   }
 }
