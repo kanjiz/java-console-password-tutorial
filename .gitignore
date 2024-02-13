@@ -1,0 +1,20 @@
+# Javaのソースコードをコンパイルすると生成される「.class」ファイルは無視
+*.class
+
+# ビルドツールやIDEが生成する「bin」ディレクトリは無視
+bin
+
+# ビルドツールやIDEが生成する「out」ディレクトリは無視
+out
+
+# Gradleがプロジェクトのビルドプロセス中に生成する一時的なキャッシュ「.gradle」ディレクトリは無視
+.gradle
+
+# Gradleがビルドの出力（クラスファイル、jarファイルなど）を格納する「build」ディレクトリは無視
+build
+
+# IntelliJ IDEAがプロジェクト固有の設定を格納する「.idea」ディレクトリは無視
+.idea
+
+# Visual Studio Codeがプロジェクト固有の設定を格納する「.vscode」ディレクトリは無視
+.vscode
